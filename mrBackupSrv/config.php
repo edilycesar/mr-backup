@@ -1,7 +1,7 @@
 <?php
 ini_set("display_errors", true);
 
-define('FOLDER_DESTINATION', 'backups');//permissão de gravação
+define('FOLDER_DESTINATION',  __DIR__ . '/backups');//permissão de gravação
 
 function __autoload($class){
     $file = "class/{$class}.class.php";
